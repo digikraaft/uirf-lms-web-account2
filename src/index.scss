@@ -465,3 +465,20 @@ $fa-font-path: "~font-awesome/fonts";
 .pgn__modal.pgn__modal-visible-overflow .pgn__modal-body {
   overflow: scroll;
 }
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: -0.125em;
+  border: 0.25em solid transparent !important;
+  border-top: 0.25em solid #ff6f00 !important;
+  animation: 0.75s linear infinite spinner-border !important;
+}
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #f5e3c3;
+}

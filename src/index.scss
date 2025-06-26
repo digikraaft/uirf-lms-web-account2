@@ -482,3 +482,13 @@ $fa-font-path: "~font-awesome/fonts";
 .dropdown-item:hover, .dropdown-item:focus {
   background-color: #f5e3c3;
 }
+.page__account-settings .pgn-transition-replace-group .form-group .d-flex.align-items-start button, .page__account-settings .pgn-transition-replace-group form>p button{
+  background: #ff6f00 !important;
+  border: 0 !important;
+}
+.bg-primary{
+  background: #ff6f00 !important;
+}
+#root header.site-header-desktop .menu .menu-content a:hover {
+  background: #f5e3c3 !important;
+}
